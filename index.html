@@ -4,12 +4,6 @@
         <meta charset="UTF-8">
         <title>davizitos777.github.io</title>
         <style>
-            body{
-                background-color: blue;
-            }
-            .structure{
-                color: white;
-            }
         </style>
     </head>
     <body>
