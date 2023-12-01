@@ -1,8 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Página 2 - davizitos777.github.io</title>
+    <style>
+      /* Seus estilos CSS aqui para a página 2 */
+      body.dark-mode {
+        background-color: #1a1a1a;
+        color: #ffffff;
+      }
+
+      body.light-mode {
+        background-color: #ffffff;
+        color: #000000;
+      }
+    </style>
+    <script>
+      // JS code here:
+      document.addEventListener('DOMContentLoaded', function() {
+        // Verifica se o sistema está usando o modo escuro
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            // O sistema está usando o modo escuro
+            document.body.classList.add('dark-mode');
+        } else {
+            // O sistema está usando o modo claro
+            document.body.classList.add('light-mode');
+        }
+      });
+    </script>
+  </head>
   <body>
+    <!-- Conteúdo da página 2 aqui -->
     <h1>davizitos777.github.io/page2.html</h1>
-    <img src="https://davizitos777.github.io/monotango.png">
+    <img src="https://davizitos777.github.io/monotango.png" alt="Monotango Image">
     <a href="https://davizitos777.github.io/">go to main page</a>
   </body>
 </html>
